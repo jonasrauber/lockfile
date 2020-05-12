@@ -8,11 +8,6 @@ lockfile
 🔥 Why lockfile
 ----------------
 
-There are a number of alternatives such as
-`py-filelock <https://github.com/benediktschmitt/py-filelock>`_ and
-`FileLock <https://github.com/dmfrey/FileLock>`_ that actually inspired
-this project but are more complex and somewhat outdated.
-
 **lockfile** provides a minimalistic and modern (Python 3.6 and newer)
 implementation of a simple file-based lock mechanism.
 
@@ -21,6 +16,11 @@ implementation of a simple file-based lock mechanism.
 - **Type annotated**: lockfile provides comprehensive type annotations
 - **Convinient**: lockfile automatically appendx a `.lock` suffix if needed
 - **Clean**: all code is formatted with Black and checked with MyPy and flake8
+
+There are a number of alternatives such as
+`py-filelock <https://github.com/benediktschmitt/py-filelock>`_ and
+`FileLock <https://github.com/dmfrey/FileLock>`_ that actually inspired
+this project but are more complex and somewhat outdated.
 
 
 📖 Documentation
@@ -33,7 +33,7 @@ Just look at this README and the code, it's really simple.
 --------------
 
 No installation, just copy
-`lockfile.py <https://raw.githubusercontent.com/jonasrauber/lockfile/master/lockfile.py>`_
+`lockfile.py <https://github.com/jonasrauber/lockfile/raw/master/lockfile.py>`_
 to your project. It has zero dependencies beyond Python 3.6 or newer.
 
 If you think an installable package might be useful, just open an issue.
