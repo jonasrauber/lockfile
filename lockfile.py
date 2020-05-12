@@ -1,3 +1,6 @@
+# ==============================================================================
+# https://github.com/jonasrauber/lockfile
+# ==============================================================================
 from typing import Union, Optional, Any
 import warnings
 import os
