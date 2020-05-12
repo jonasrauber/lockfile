@@ -12,10 +12,12 @@ lockfile
 implementation of a simple file-based lock mechanism.
 
 - **Minimalistic**: lockfile does one thing, and one thing only
-- **Modern**: lockfile supports :code:`pathlib.Path` objects
+- **Modern**: lockfile supports ``pathlib.Path`` objects
 - **Type annotated**: lockfile provides comprehensive type annotations
-- **Convinient**: lockfile automatically appendx a :code:`.lock` suffix if needed
-- **Clean**: all code is formatted with Black and checked with MyPy and flake8
+- **Convinient**: lockfile automatically appendx a ``.lock`` suffix if needed
+- **Clean**: all code is formatted with `Black <https://black.readthedocs.io/>`_
+  and checked with `MyPy <https://mypy.readthedocs.io/>`_
+  and `flake8 <https://flake8.pycqa.org/>`_
 
 There are a number of alternatives such as
 `py-filelock <https://github.com/benediktschmitt/py-filelock>`_ and
