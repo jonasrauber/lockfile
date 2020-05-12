@@ -7,7 +7,8 @@ import time
 def main() -> None:
     path = Path("example.txt")
     with Lock(path):
-        time.sleep(10)  # to demonstrate the Lock (run it in parallel)
+        print("sleeping for 10s to demonstrate the Lock (run example.py in parallel)")
+        time.sleep(10)
         with open(path, "w") as f:
             f.write("Hello!")
 
