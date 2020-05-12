@@ -9,7 +9,7 @@ lockfile
 ----------------
 
 **lockfile** provides a minimalistic and modern
-implementation of a simple file-based lock mechanism.
+implementation of a simple file-based lock mechanism for Python.
 
 - **Minimalistic**: lockfile does one thing, and one thing only
 - **Modern**: lockfile supports ``pathlib.Path`` objects
