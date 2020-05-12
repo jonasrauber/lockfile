@@ -8,13 +8,13 @@ lockfile
 🔥 Why lockfile
 ----------------
 
-**lockfile** provides a minimalistic and modern (Python 3.6 and newer)
+**lockfile** provides a minimalistic and modern
 implementation of a simple file-based lock mechanism.
 
 - **Minimalistic**: lockfile does one thing, and one thing only
-- **Modern**: lockfile supports `pathlib.Path` objects
+- **Modern**: lockfile supports :code:`pathlib.Path` objects
 - **Type annotated**: lockfile provides comprehensive type annotations
-- **Convinient**: lockfile automatically appendx a `.lock` suffix if needed
+- **Convinient**: lockfile automatically appendx a :code:`.lock` suffix if needed
 - **Clean**: all code is formatted with Black and checked with MyPy and flake8
 
 There are a number of alternatives such as
